@@ -11,3 +11,4 @@ cat src1.log |sort|uniq -c |sort -k 1 -n >log.log
 rm -rf ./src.log
 rm -rf ./src1.log
 
+##日志筛选脚本 

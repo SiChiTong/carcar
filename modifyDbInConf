@@ -1,0 +1,55 @@
+#!/bin/bash
+
+echo "two peramter about first represent old ,second represent new !"
+echo "修改每一个模块的config文件参数，主要用在修改数据库的配置！"
+
+cd /data/zbcar_admin_server && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_admin_server"
+
+#cd /data/zbcar_alarm_server && sed -i "s/$1/$2/g" cfg.conf
+#echo "zbcar_alarm_server"
+
+cd /data/zbcar_alarm_server && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_alarm_server"
+
+cd /data/zbcar_business_server && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_business_server"
+
+cd /data/zbcar_carinfo && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_carinfo"
+
+cd /data/zbcar_dbtofile && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_dbtofile"
+
+cd /data/zbcar_dev_server && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_dev_server"
+
+cd /data/zbcar_gps_server && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_gps_server"
+
+cd /data/zbcar_location_server && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_location_server"
+
+cd /data/zbcar_login && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_log"
+
+cd /data/zbcar_manager && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_manager"
+
+cd /data/zbcar_push && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_push"
+
+cd /data/zbcar_recycle && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_recycle"
+
+cd /data/zbcar_send_mail_server && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_send_mail_server"
+
+cd /data/zbcar_trash && sed -i "s/$1/$2/g" cfg.conf
+echo "zbcar_trash"
+
+
+
+
+
+

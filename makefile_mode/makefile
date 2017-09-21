@@ -3,7 +3,8 @@ CFLAGS= -Wall
 INCLUDE=-I/usr/include/
 CC=gcc
 OBJS=$(patsubst %.c,%.o,$(wildcard ./*.c))
-all:$(TAEGET)
+
+all:$(TAEGET) clean_object
 
 $(TAEGET):$(OBJS)
 	$(CC) -o $@ $^ 
@@ -11,9 +12,10 @@ $(TAEGET):$(OBJS)
 .c.o:
 	$(CC) $(CFLAGS) -o $@ -c $< $(INCLUDE)
 
+.PHONY:clean_object
 .PHONY:clean
 clean:
-	rm -rf ./*.o
 	rm -rf ./$(TAEGET)
-
+clean_object:
+	rm -rf ./*.o
 

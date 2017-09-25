@@ -1,4 +1,4 @@
-#include "templateDemo.cpp"
+#include "templateDemo.cpp"//watch out "not templateDemo.h" ,because of class mode
 #include <iostream>
 using namespace std;
 

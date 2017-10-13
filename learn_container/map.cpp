@@ -12,14 +12,32 @@ typedef struct{
 }stuInfo;
 
 class stu{
-	private:
+	public:
 	string name ;
 	stuInfo* info=new(stuInfo);
 	public:
 	stu();
-	~stu(){printf("delete stu object!!");};
-	void desplay();
+	virtual ~stu(){
+		printf("delete stu object!!");
+		delete info;	
+	};
+	virtual void desplay();
 };
+
+class stuMan:public stu
+{
+	private:
+	int *height=new(int);
+	
+	stuMan();
+	~stuMan(){
+		printf("delete stuMan !!");
+		delete height;
+		delete info;
+	};
+	void display();
+};
+
 
 stu::stu():name("okk"){
 	info->age=0;
@@ -27,11 +45,27 @@ stu::stu():name("okk"){
 	info->phone="15091545284";
 	info->email="350817634@qq.com";
 	info->sort=0;
-}
+};
 
 void stu::desplay(){
 	printf("name:%s,info->age:%d,info->_class:%s,info->phone:%s,info->email:%s,info->sort:%d"
 	,name.c_str(),info->age,info->_class.c_str(),info->phone.c_str(),info->email.c_str(),info->sort);
+};
+
+stuMan::stuMan(){
+	info->age=0;
+        info->_class="one";
+        info->phone="15091545284";
+        info->email="350817634@qq.com";
+        info->sort=0;
+	name="hello";
+	*height=175;
+};
+
+void stuMan::display(){
+
+	std::cout<<"name:"<<name<<"info->age:"<<info->age<<"info->_class"<<info->_class<<"info->phone"
+	<<info->phone<<"info->email:"<<info->email<<"info->sort"<<info->sort<<"height:"<<height<<endl;
 }
 int main(void)
 {

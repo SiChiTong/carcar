@@ -18,7 +18,7 @@ class stu{
 	public:
 	stu();
         virtual ~stu(){
-		printf("delete stu object!!");
+		printf("delete stu object!!\n");
 		delete info;	
 	};
 	virtual void desplay();
@@ -68,6 +68,45 @@ void stuMan::display(){
 	std::cout<<"name:"<<name<<"info->age:"<<info->age<<"info->_class"<<info->_class<<"info->phone"
 	<<info->phone<<"info->email:"<<info->email<<"info->sort:"<<info->sort<<"height:"<<*height<<endl;
 }
+
+class home{
+	private:
+		vector<string> books;
+		vector<string*> aBook;
+		vector<string> *pBook=new(vector<string>);
+	public:
+		~home(){
+			cout<<"delete home object!"<<endl;
+			delete pBook;
+		}
+		home(string *a,int num){
+			vector<string> tem(a,a+num);
+			books.assign(tem.begin(),tem.end());
+		}
+		void setABook(string** b,int num);
+		void setPBook(){
+			pBook->assign(books.begin(),books.end());
+			
+		};
+		void displayAllBook();
+		
+	
+};
+
+void home::displayAllBook(){
+	for(vector<string>::iterator _index=books.begin();_index!=books.end();_index++)
+		cout<<*_index<<endl;
+	for(vector<string*>::iterator _index1=aBook.begin();_index1!=aBook.end();_index1++)
+		cout<<**_index1<<endl;
+	for(vector<string>::iterator _index2=pBook->begin();_index2!=pBook->end();_index2++)
+		cout<<*_index2<<endl;
+};
+
+void home::setABook(string** b,int num){
+	aBook.assign(b,b+num);
+	
+};
+
 int main(void)
 {
 	stu* student1=new stu();
@@ -76,5 +115,17 @@ int main(void)
 	student2->desplay();
 	delete student1;
 	//delete student2;
+	string a[5]={"gong","wen","bo","like","code"};
+	string *b[4]={&a[0],&a[1],&a[3],&a[4]};
+	home Home(a,5);
+	Home.displayAllBook();
+	cout<<' '<<endl;
+	Home.setABook(b,4);
+	Home.displayAllBook();
+	cout<<' '<<endl;
+	Home.setPBook();
+	Home.displayAllBook();
+	
+	
 
 }

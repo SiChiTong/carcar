@@ -74,14 +74,21 @@ class home{
 		vector<string> books;
 		vector<string*> aBook;
 		vector<string> *pBook=new(vector<string>);
+		vector<string> booksSwap;
 	public:
 		~home(){
 			cout<<"delete home object!"<<endl;
 			delete pBook;
+			
 		}
 		home(string *a,int num){
 			vector<string> tem(a,a+num);
 			books.assign(tem.begin(),tem.end());
+			booksSwap.push_back("nice");
+			booksSwap.push_back("beauty");
+			booksSwap.push_back("good");
+			booksSwap.push_back("good");
+			booksSwap.push_back("good");
 		}
 		void setABook(string** b,int num);
 		void setPBook(){
@@ -89,6 +96,7 @@ class home{
 			
 		};
 		void displayAllBook();
+		void _operatorVector();
 		
 	
 };
@@ -100,6 +108,8 @@ void home::displayAllBook(){
 		cout<<**_index1<<endl;
 	for(vector<string>::iterator _index2=pBook->begin();_index2!=pBook->end();_index2++)
 		cout<<*_index2<<endl;
+	for(vector<string>::iterator _index3=booksSwap.begin();_index3!=booksSwap.end();_index3++)
+		cout<<*_index3<<endl;
 };
 
 void home::setABook(string** b,int num){
@@ -107,6 +117,20 @@ void home::setABook(string** b,int num){
 	
 };
 
+void home::_operatorVector(){
+	cout<<"pBook->size():"<<pBook->size()<<endl;
+	cout<<"pBook->capacity:"<<pBook->capacity()<<endl;
+	cout<<"books.swap(booksSwap)"<<endl;
+	books.swap(booksSwap);
+	cout<<"pBook->front():"<<pBook->front()<<endl;
+	cout<<"pBook->back():"<<pBook->back()<<endl;
+	cout<<"pBook->at(3):"<<pBook->at(3)<<endl;
+	pBook->clear();
+	if(pBook->empty())
+		cout<<"execute erase()"<<endl;
+		cout<<"pBook->size():"<<pBook->size()<<endl;
+		cout<<"pBook->capacity:"<<pBook->capacity()<<endl;
+};
 int main(void)
 {
 	stu* student1=new stu();
@@ -125,7 +149,8 @@ int main(void)
 	cout<<' '<<endl;
 	Home.setPBook();
 	Home.displayAllBook();
-	
+	Home._operatorVector();
+    Home.displayAllBook();
 	
 
 }

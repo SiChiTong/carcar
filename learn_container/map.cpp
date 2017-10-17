@@ -75,6 +75,7 @@ class home{
 		vector<string*> aBook;
 		vector<string> *pBook=new(vector<string>);
 		vector<string> booksSwap;
+		map<string,string> _host;
 	public:
 		~home(){
 			cout<<"delete home object!"<<endl;
@@ -97,7 +98,7 @@ class home{
 		};
 		void displayAllBook();
 		void _operatorVector();
-		
+		void _operatorMap();
 	
 };
 
@@ -131,6 +132,17 @@ void home::_operatorVector(){
 		cout<<"pBook->size():"<<pBook->size()<<endl;
 		cout<<"pBook->capacity:"<<pBook->capacity()<<endl;
 };
+
+void home::_operatorMap(){
+	_host.insert(pair<string,string>("thinkpad","192.168.1.2"));
+	_host.insert(pair<string,string>("dell","192.168.1.3"));
+	_host.insert(pair<string,string>("lenovo","192.168.1.1"));
+	for(map<string,string>::iterator _iter=_host.begin();_iter!=_host.end();_iter++){
+		cout<<_iter->first<<":"<<_iter->second<<endl;
+	};
+
+};
+
 int main(void)
 {
 	stu* student1=new stu();
@@ -151,6 +163,7 @@ int main(void)
 	Home.displayAllBook();
 	Home._operatorVector();
     Home.displayAllBook();
-	
+	cout<<' '<<endl;
+	Home._operatorMap();
 
 }

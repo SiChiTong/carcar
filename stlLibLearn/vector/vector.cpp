@@ -5,6 +5,7 @@ class TestVec{
 		vector<int>* _id=new vector<int>();
 		vector<string>* _name=new vector<string>();
 		map<int,string> _map;
+		
 	public:
 	
 	TestVec(int* id,int idSize,string* name,int nameSize);
@@ -16,6 +17,7 @@ class TestVec{
 	}
 	int display();
 	int operVec();
+	int operMap();
 };
 TestVec::TestVec(int* id,int idSize,string* name,int nameSize){
 	for(int i=0;i<idSize;i++){
@@ -65,12 +67,22 @@ int TestVec::operVec(){
 	return 0;
 	
 };
+
+int TestVec::operMap(){
+	map<int,string>::iterator iter_map;
+	iter_map=_map.find(2);  //测试删除
+	_map.erase(iter_map);
+	return 0;
+	
+};
 int main()
 {
 	int temI[]={1,2,3,4,6,7,8,9};
 	string temS[4]={"asdf","fff","tetet","kkk"};
 	TestVec *obj=new TestVec(temI,sizeof(temI)/sizeof(int),temS,4);
 	obj->operVec();
+	obj->display();
+	obj->operMap();
 	obj->display();
 	delete obj;
 	

@@ -1,0 +1,2 @@
+/home/carcar/BoostLearn2018/Shareptr/build/src/CMakeFiles/shareptr.dir
+/home/carcar/BoostLearn2018/Shareptr/build/CMakeFiles/test.dir

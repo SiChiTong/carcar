@@ -1,0 +1,2 @@
+/usr/bin/ar cr libshareptr.a  CMakeFiles/shareptr.dir/week_ptr.cpp.o CMakeFiles/shareptr.dir/share_ptr.cpp.o
+/usr/bin/ranlib libshareptr.a

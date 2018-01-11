@@ -81,17 +81,43 @@ src/CMakeFiles/share_ptr.dir/share_ptr.cpp.o.provides: src/CMakeFiles/share_ptr.
 src/CMakeFiles/share_ptr.dir/share_ptr.cpp.o.provides.build: src/CMakeFiles/share_ptr.dir/share_ptr.cpp.o
 
 
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o: src/CMakeFiles/share_ptr.dir/flags.make
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o: ../src/share_scoped.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carcar/BoostLearn2018/SharePointer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o"
+	cd /home/carcar/BoostLearn2018/SharePointer/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/share_ptr.dir/share_scoped.cpp.o -c /home/carcar/BoostLearn2018/SharePointer/src/share_scoped.cpp
+
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share_ptr.dir/share_scoped.cpp.i"
+	cd /home/carcar/BoostLearn2018/SharePointer/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carcar/BoostLearn2018/SharePointer/src/share_scoped.cpp > CMakeFiles/share_ptr.dir/share_scoped.cpp.i
+
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share_ptr.dir/share_scoped.cpp.s"
+	cd /home/carcar/BoostLearn2018/SharePointer/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carcar/BoostLearn2018/SharePointer/src/share_scoped.cpp -o CMakeFiles/share_ptr.dir/share_scoped.cpp.s
+
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.requires
+
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.provides: src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/share_ptr.dir/build.make src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.provides.build
+.PHONY : src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.provides
+
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.provides.build: src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o
+
+
 # Object files for target share_ptr
 share_ptr_OBJECTS = \
-"CMakeFiles/share_ptr.dir/share_ptr.cpp.o"
+"CMakeFiles/share_ptr.dir/share_ptr.cpp.o" \
+"CMakeFiles/share_ptr.dir/share_scoped.cpp.o"
 
 # External object files for target share_ptr
 share_ptr_EXTERNAL_OBJECTS =
 
 src/libshare_ptr.a: src/CMakeFiles/share_ptr.dir/share_ptr.cpp.o
+src/libshare_ptr.a: src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o
 src/libshare_ptr.a: src/CMakeFiles/share_ptr.dir/build.make
 src/libshare_ptr.a: src/CMakeFiles/share_ptr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carcar/BoostLearn2018/SharePointer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libshare_ptr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carcar/BoostLearn2018/SharePointer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libshare_ptr.a"
 	cd /home/carcar/BoostLearn2018/SharePointer/build/src && $(CMAKE_COMMAND) -P CMakeFiles/share_ptr.dir/cmake_clean_target.cmake
 	cd /home/carcar/BoostLearn2018/SharePointer/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/share_ptr.dir/link.txt --verbose=$(VERBOSE)
 
@@ -101,6 +127,7 @@ src/CMakeFiles/share_ptr.dir/build: src/libshare_ptr.a
 .PHONY : src/CMakeFiles/share_ptr.dir/build
 
 src/CMakeFiles/share_ptr.dir/requires: src/CMakeFiles/share_ptr.dir/share_ptr.cpp.o.requires
+src/CMakeFiles/share_ptr.dir/requires: src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o.requires
 
 .PHONY : src/CMakeFiles/share_ptr.dir/requires
 

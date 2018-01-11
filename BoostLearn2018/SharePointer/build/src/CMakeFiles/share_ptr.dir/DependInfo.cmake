@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/carcar/BoostLearn2018/SharePointer/src/share_ptr.cpp" "/home/carcar/BoostLearn2018/SharePointer/build/src/CMakeFiles/share_ptr.dir/share_ptr.cpp.o"
+  "/home/carcar/BoostLearn2018/SharePointer/src/share_scoped.cpp" "/home/carcar/BoostLearn2018/SharePointer/build/src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

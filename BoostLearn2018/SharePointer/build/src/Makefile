@@ -152,6 +152,33 @@ share_ptr.cpp.s:
 	cd /home/carcar/BoostLearn2018/SharePointer/build && $(MAKE) -f src/CMakeFiles/share_ptr.dir/build.make src/CMakeFiles/share_ptr.dir/share_ptr.cpp.s
 .PHONY : share_ptr.cpp.s
 
+share_scoped.o: share_scoped.cpp.o
+
+.PHONY : share_scoped.o
+
+# target to build an object file
+share_scoped.cpp.o:
+	cd /home/carcar/BoostLearn2018/SharePointer/build && $(MAKE) -f src/CMakeFiles/share_ptr.dir/build.make src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o
+.PHONY : share_scoped.cpp.o
+
+share_scoped.i: share_scoped.cpp.i
+
+.PHONY : share_scoped.i
+
+# target to preprocess a source file
+share_scoped.cpp.i:
+	cd /home/carcar/BoostLearn2018/SharePointer/build && $(MAKE) -f src/CMakeFiles/share_ptr.dir/build.make src/CMakeFiles/share_ptr.dir/share_scoped.cpp.i
+.PHONY : share_scoped.cpp.i
+
+share_scoped.s: share_scoped.cpp.s
+
+.PHONY : share_scoped.s
+
+# target to generate assembly for a file
+share_scoped.cpp.s:
+	cd /home/carcar/BoostLearn2018/SharePointer/build && $(MAKE) -f src/CMakeFiles/share_ptr.dir/build.make src/CMakeFiles/share_ptr.dir/share_scoped.cpp.s
+.PHONY : share_scoped.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +191,9 @@ help:
 	@echo "... share_ptr.o"
 	@echo "... share_ptr.i"
 	@echo "... share_ptr.s"
+	@echo "... share_scoped.o"
+	@echo "... share_scoped.i"
+	@echo "... share_scoped.s"
 .PHONY : help
 
 

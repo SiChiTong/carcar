@@ -3,5 +3,7 @@
 
 CMakeFiles/test.dir/main.cpp.o
  .././inc/common.h
+ .././src/log_system.h
  .././src/share_ptr.h
+ .././src/share_scoped.h
  /home/carcar/BoostLearn2018/SharePointer/main.cpp

@@ -1,9 +1,22 @@
 #ifndef SHARE_PTR_H
 #define SHARE_PTR_H
-
 #include "common.h"
-#define __FILENAME__ (strrchr(__FILE__, '/') ? (strrchr(__FILE__, '/') + 1):__FILE__)
-#define LOG(fmt) printf("%s:%s:%d::%s\n",__FILENAME__,__func__,__LINE__,fmt)
+using namespace std;
+
+class SharePtr{
+
+    private:
+		vector<std::string> name_;
+		int id_;
+		char* backup_;
+	public:
+		SharePtr(std::string* name_begin,int name_size);
+		~SharePtr();
+		void Display();		
+
+};
+
+void TestSharePtr();
 
 int TestScopePtr();
 

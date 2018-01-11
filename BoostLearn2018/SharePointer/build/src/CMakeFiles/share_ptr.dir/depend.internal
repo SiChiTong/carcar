@@ -3,5 +3,11 @@
 
 src/CMakeFiles/share_ptr.dir/share_ptr.cpp.o
  .././inc/common.h
+ /home/carcar/BoostLearn2018/SharePointer/src/log_system.h
  /home/carcar/BoostLearn2018/SharePointer/src/share_ptr.cpp
  /home/carcar/BoostLearn2018/SharePointer/src/share_ptr.h
+src/CMakeFiles/share_ptr.dir/share_scoped.cpp.o
+ .././inc/common.h
+ /home/carcar/BoostLearn2018/SharePointer/src/log_system.h
+ /home/carcar/BoostLearn2018/SharePointer/src/share_scoped.cpp
+ /home/carcar/BoostLearn2018/SharePointer/src/share_scoped.h

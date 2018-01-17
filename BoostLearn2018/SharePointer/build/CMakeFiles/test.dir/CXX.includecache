@@ -52,9 +52,9 @@ common.h
 log_system.h
 .././src/log_system.h
 
-/home/carcar/BoostLearn2018/SharePointer/main.cpp
+/root/carcar/BoostLearn2018/SharePointer/main.cpp
 share_ptr.h
-/home/carcar/BoostLearn2018/SharePointer/share_ptr.h
+/root/carcar/BoostLearn2018/SharePointer/share_ptr.h
 share_scoped.h
-/home/carcar/BoostLearn2018/SharePointer/share_scoped.h
+/root/carcar/BoostLearn2018/SharePointer/share_scoped.h
 

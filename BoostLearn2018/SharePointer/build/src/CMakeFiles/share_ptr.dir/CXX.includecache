@@ -38,27 +38,27 @@ vector
 string
 -
 
-/home/carcar/BoostLearn2018/SharePointer/src/log_system.h
+/root/carcar/BoostLearn2018/SharePointer/src/log_system.h
 common.h
-/home/carcar/BoostLearn2018/SharePointer/src/common.h
+/root/carcar/BoostLearn2018/SharePointer/src/common.h
 
-/home/carcar/BoostLearn2018/SharePointer/src/share_ptr.cpp
+/root/carcar/BoostLearn2018/SharePointer/src/share_ptr.cpp
 share_ptr.h
-/home/carcar/BoostLearn2018/SharePointer/src/share_ptr.h
+/root/carcar/BoostLearn2018/SharePointer/src/share_ptr.h
 log_system.h
-/home/carcar/BoostLearn2018/SharePointer/src/log_system.h
+/root/carcar/BoostLearn2018/SharePointer/src/log_system.h
 
-/home/carcar/BoostLearn2018/SharePointer/src/share_ptr.h
+/root/carcar/BoostLearn2018/SharePointer/src/share_ptr.h
 common.h
-/home/carcar/BoostLearn2018/SharePointer/src/common.h
+/root/carcar/BoostLearn2018/SharePointer/src/common.h
 
-/home/carcar/BoostLearn2018/SharePointer/src/share_scoped.cpp
+/root/carcar/BoostLearn2018/SharePointer/src/share_scoped.cpp
 share_scoped.h
-/home/carcar/BoostLearn2018/SharePointer/src/share_scoped.h
+/root/carcar/BoostLearn2018/SharePointer/src/share_scoped.h
 
-/home/carcar/BoostLearn2018/SharePointer/src/share_scoped.h
+/root/carcar/BoostLearn2018/SharePointer/src/share_scoped.h
 common.h
-/home/carcar/BoostLearn2018/SharePointer/src/common.h
+/root/carcar/BoostLearn2018/SharePointer/src/common.h
 log_system.h
-/home/carcar/BoostLearn2018/SharePointer/src/log_system.h
+/root/carcar/BoostLearn2018/SharePointer/src/log_system.h
 

@@ -1,6 +1,2 @@
-/home/carcar/BoostLearn2018/SharePointer/build/CMakeFiles/edit_cache.dir
-/home/carcar/BoostLearn2018/SharePointer/build/CMakeFiles/rebuild_cache.dir
-/home/carcar/BoostLearn2018/SharePointer/build/CMakeFiles/test.dir
-/home/carcar/BoostLearn2018/SharePointer/build/src/CMakeFiles/edit_cache.dir
-/home/carcar/BoostLearn2018/SharePointer/build/src/CMakeFiles/rebuild_cache.dir
-/home/carcar/BoostLearn2018/SharePointer/build/src/CMakeFiles/share_ptr.dir
+/root/carcar/BoostLearn2018/SharePointer/build/src/CMakeFiles/share_ptr.dir
+/root/carcar/BoostLearn2018/SharePointer/build/CMakeFiles/test.dir

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libshare_ptr.a  CMakeFiles/share_ptr.dir/share_ptr.cpp.o CMakeFiles/share_ptr.dir/share_scoped.cpp.o
+/usr/bin/ar cr libshare_ptr.a  CMakeFiles/share_ptr.dir/share_ptr.cpp.o CMakeFiles/share_ptr.dir/share_scoped.cpp.o
 /usr/bin/ranlib libshare_ptr.a

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/ser.dir/ser.cpp.o  -o ser  -L. -rdynamic src/libserver_lib.a -Wl,-rpath,. 

@@ -1,0 +1,7 @@
+/home/carcar/CmakeMode/build/CMakeFiles/edit_cache.dir
+/home/carcar/CmakeMode/build/CMakeFiles/rebuild_cache.dir
+/home/carcar/CmakeMode/build/src/CMakeFiles/rebuild_cache.dir
+/home/carcar/CmakeMode/build/src/CMakeFiles/edit_cache.dir
+/home/carcar/CmakeMode/build/src/CMakeFiles/shareptr.dir
+/home/carcar/CmakeMode/build/add/CMakeFiles/edit_cache.dir
+/home/carcar/CmakeMode/build/add/CMakeFiles/rebuild_cache.dir

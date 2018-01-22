@@ -36,11 +36,35 @@ vector
 string
 -
 
-/root/carcar/BoostLearn2018/CommonModule/src/tokenizer.cpp
-tokenizer.h
-/root/carcar/BoostLearn2018/CommonModule/src/tokenizer.h
+/home/carcar/BoostLearn2018/CommonModule/src/any.cpp
+any.h
+/home/carcar/BoostLearn2018/CommonModule/src/any.h
 
-/root/carcar/BoostLearn2018/CommonModule/src/tokenizer.h
+/home/carcar/BoostLearn2018/CommonModule/src/any.h
 common.h
-/root/carcar/BoostLearn2018/CommonModule/src/common.h
+/home/carcar/BoostLearn2018/CommonModule/src/common.h
+
+/home/carcar/BoostLearn2018/CommonModule/src/array.cpp
+array.h
+/home/carcar/BoostLearn2018/CommonModule/src/array.h
+
+/home/carcar/BoostLearn2018/CommonModule/src/array.h
+common.h
+/home/carcar/BoostLearn2018/CommonModule/src/common.h
+
+/home/carcar/BoostLearn2018/CommonModule/src/lexical.cpp
+lexical.h
+/home/carcar/BoostLearn2018/CommonModule/src/lexical.h
+
+/home/carcar/BoostLearn2018/CommonModule/src/lexical.h
+common.h
+/home/carcar/BoostLearn2018/CommonModule/src/common.h
+
+/home/carcar/BoostLearn2018/CommonModule/src/tokenizer.cpp
+tokenizer.h
+/home/carcar/BoostLearn2018/CommonModule/src/tokenizer.h
+
+/home/carcar/BoostLearn2018/CommonModule/src/tokenizer.h
+common.h
+/home/carcar/BoostLearn2018/CommonModule/src/common.h
 

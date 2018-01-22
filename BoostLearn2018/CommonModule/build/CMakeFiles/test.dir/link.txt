@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/test.dir/main.cpp.o  -o test  -L./lib -rdynamic src/libtest_depend.a -lboost_system -lboost_thread -Wl,-rpath,./lib 
+/usr/bin/c++      CMakeFiles/test.dir/main.cpp.o  -o test  -L/home/carcar/BoostLearn2018/CommonModule/lib -rdynamic src/libtest_depend.a -lboost_system -lboost_thread -Wl,-rpath,/home/carcar/BoostLearn2018/CommonModule/lib 

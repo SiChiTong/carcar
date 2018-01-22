@@ -1,2 +1,2 @@
-/usr/bin/ar cr libtest_depend.a  CMakeFiles/test_depend.dir/any.cpp.o CMakeFiles/test_depend.dir/array.cpp.o CMakeFiles/test_depend.dir/lexical.cpp.o CMakeFiles/test_depend.dir/tokenizer.cpp.o
+/usr/bin/ar qc libtest_depend.a  CMakeFiles/test_depend.dir/any.cpp.o CMakeFiles/test_depend.dir/tokenizer.cpp.o CMakeFiles/test_depend.dir/lexical.cpp.o CMakeFiles/test_depend.dir/array.cpp.o
 /usr/bin/ranlib libtest_depend.a

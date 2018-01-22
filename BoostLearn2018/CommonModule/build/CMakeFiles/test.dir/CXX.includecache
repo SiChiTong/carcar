@@ -52,13 +52,13 @@ common.h
 common.h
 .././src/common.h
 
-/root/carcar/BoostLearn2018/CommonModule/main.cpp
+/home/carcar/BoostLearn2018/CommonModule/main.cpp
 any.h
-/root/carcar/BoostLearn2018/CommonModule/any.h
+/home/carcar/BoostLearn2018/CommonModule/any.h
 array.h
-/root/carcar/BoostLearn2018/CommonModule/array.h
+/home/carcar/BoostLearn2018/CommonModule/array.h
 lexical.h
-/root/carcar/BoostLearn2018/CommonModule/lexical.h
+/home/carcar/BoostLearn2018/CommonModule/lexical.h
 tokenizer.h
-/root/carcar/BoostLearn2018/CommonModule/tokenizer.h
+/home/carcar/BoostLearn2018/CommonModule/tokenizer.h
 

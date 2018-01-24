@@ -37,13 +37,14 @@ int RecieveMsgFormSer(int sockListen,char* reci_msg,int reci_msg_len,
     socklen_t addrLen = sizeof(struct sockaddr_in);  
     if((recvbytes = recvfrom(sockListen, reci_msg, reci_msg_len, 0,  
         (struct sockaddr *)remote_addr, &addrLen)) != -1){  
-        reci_msg[recvbytes] = '\0';  
-        printf("receive messgse::%s\n", reci_msg);  
+        //reci_msg[recvbytes] = '\0';  
+        //printf("receive messgse::%s\n", reci_msg);  
     }else{  
-        printf("recvfrom fail\n");  
+        printf("recvfrom fail\n"); 
+		return -1;
     }  
     //close(sockListen);
-	return 0;
+	return recvbytes;
 						  						  						  
 }
 

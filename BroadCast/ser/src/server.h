@@ -13,7 +13,7 @@
 #include <fstream>
 #include <unistd.h>
 #include <fcntl.h> 
-
+#include <iostream>
 #define PORT 8898//8668             // 端口号
 #define IP_FOUND "HHWW_FOUND"       // IP发现命令
 #define NET_ADDRSIZE 20		        // "192.168.188.168" 给20个bytes;"00:AB:BB:CC:BA:00" 共18个字节

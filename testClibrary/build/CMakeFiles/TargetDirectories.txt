@@ -1,0 +1,2 @@
+/root/carcar/testClibrary/build/src/CMakeFiles/func_dep.dir
+/root/carcar/testClibrary/build/CMakeFiles/test.dir

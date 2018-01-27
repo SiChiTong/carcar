@@ -130,6 +130,21 @@ func.s:
 	cd /root/carcar/testClibrary/build && $(MAKE) -f src/CMakeFiles/func_dep.dir/build.make src/CMakeFiles/func_dep.dir/func.s
 .PHONY : func.s
 
+# target to build an object file
+test_class.o:
+	cd /root/carcar/testClibrary/build && $(MAKE) -f src/CMakeFiles/func_dep.dir/build.make src/CMakeFiles/func_dep.dir/test_class.o
+.PHONY : test_class.o
+
+# target to preprocess a source file
+test_class.i:
+	cd /root/carcar/testClibrary/build && $(MAKE) -f src/CMakeFiles/func_dep.dir/build.make src/CMakeFiles/func_dep.dir/test_class.i
+.PHONY : test_class.i
+
+# target to generate assembly for a file
+test_class.s:
+	cd /root/carcar/testClibrary/build && $(MAKE) -f src/CMakeFiles/func_dep.dir/build.make src/CMakeFiles/func_dep.dir/test_class.s
+.PHONY : test_class.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -142,6 +157,9 @@ help:
 	@echo "... func.o"
 	@echo "... func.i"
 	@echo "... func.s"
+	@echo "... test_class.o"
+	@echo "... test_class.i"
+	@echo "... test_class.s"
 .PHONY : help
 
 

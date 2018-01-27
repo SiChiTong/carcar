@@ -75,14 +75,39 @@ src/CMakeFiles/func_dep.dir/func.o.provides: src/CMakeFiles/func_dep.dir/func.o.
 
 src/CMakeFiles/func_dep.dir/func.o.provides.build: src/CMakeFiles/func_dep.dir/func.o
 
+src/CMakeFiles/func_dep.dir/test_class.o: src/CMakeFiles/func_dep.dir/flags.make
+src/CMakeFiles/func_dep.dir/test_class.o: ../src/test_class.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/carcar/testClibrary/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/func_dep.dir/test_class.o"
+	cd /root/carcar/testClibrary/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/func_dep.dir/test_class.o -c /root/carcar/testClibrary/src/test_class.cpp
+
+src/CMakeFiles/func_dep.dir/test_class.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/func_dep.dir/test_class.i"
+	cd /root/carcar/testClibrary/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/carcar/testClibrary/src/test_class.cpp > CMakeFiles/func_dep.dir/test_class.i
+
+src/CMakeFiles/func_dep.dir/test_class.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/func_dep.dir/test_class.s"
+	cd /root/carcar/testClibrary/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/carcar/testClibrary/src/test_class.cpp -o CMakeFiles/func_dep.dir/test_class.s
+
+src/CMakeFiles/func_dep.dir/test_class.o.requires:
+.PHONY : src/CMakeFiles/func_dep.dir/test_class.o.requires
+
+src/CMakeFiles/func_dep.dir/test_class.o.provides: src/CMakeFiles/func_dep.dir/test_class.o.requires
+	$(MAKE) -f src/CMakeFiles/func_dep.dir/build.make src/CMakeFiles/func_dep.dir/test_class.o.provides.build
+.PHONY : src/CMakeFiles/func_dep.dir/test_class.o.provides
+
+src/CMakeFiles/func_dep.dir/test_class.o.provides.build: src/CMakeFiles/func_dep.dir/test_class.o
+
 # Object files for target func_dep
 func_dep_OBJECTS = \
-"CMakeFiles/func_dep.dir/func.o"
+"CMakeFiles/func_dep.dir/func.o" \
+"CMakeFiles/func_dep.dir/test_class.o"
 
 # External object files for target func_dep
 func_dep_EXTERNAL_OBJECTS =
 
 src/libfunc_dep.a: src/CMakeFiles/func_dep.dir/func.o
+src/libfunc_dep.a: src/CMakeFiles/func_dep.dir/test_class.o
 src/libfunc_dep.a: src/CMakeFiles/func_dep.dir/build.make
 src/libfunc_dep.a: src/CMakeFiles/func_dep.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libfunc_dep.a"
@@ -94,6 +119,7 @@ src/CMakeFiles/func_dep.dir/build: src/libfunc_dep.a
 .PHONY : src/CMakeFiles/func_dep.dir/build
 
 src/CMakeFiles/func_dep.dir/requires: src/CMakeFiles/func_dep.dir/func.o.requires
+src/CMakeFiles/func_dep.dir/requires: src/CMakeFiles/func_dep.dir/test_class.o.requires
 .PHONY : src/CMakeFiles/func_dep.dir/requires
 
 src/CMakeFiles/func_dep.dir/clean:

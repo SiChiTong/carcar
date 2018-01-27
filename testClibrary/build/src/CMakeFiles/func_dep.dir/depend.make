@@ -5,3 +5,7 @@ src/CMakeFiles/func_dep.dir/func.o: .././inc/common.h
 src/CMakeFiles/func_dep.dir/func.o: ../src/func.cpp
 src/CMakeFiles/func_dep.dir/func.o: ../src/func.h
 
+src/CMakeFiles/func_dep.dir/test_class.o: .././inc/common.h
+src/CMakeFiles/func_dep.dir/test_class.o: ../src/test_class.cpp
+src/CMakeFiles/func_dep.dir/test_class.o: ../src/test_class.h
+

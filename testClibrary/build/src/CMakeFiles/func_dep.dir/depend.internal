@@ -5,3 +5,7 @@ src/CMakeFiles/func_dep.dir/func.o
  .././inc/common.h
  /root/carcar/testClibrary/src/func.cpp
  /root/carcar/testClibrary/src/func.h
+src/CMakeFiles/func_dep.dir/test_class.o
+ .././inc/common.h
+ /root/carcar/testClibrary/src/test_class.cpp
+ /root/carcar/testClibrary/src/test_class.h

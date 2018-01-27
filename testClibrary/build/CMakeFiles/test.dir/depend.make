@@ -3,5 +3,6 @@
 
 CMakeFiles/test.dir/main.o: .././inc/common.h
 CMakeFiles/test.dir/main.o: .././src/func.h
+CMakeFiles/test.dir/main.o: .././src/test_class.h
 CMakeFiles/test.dir/main.o: ../main.cpp
 

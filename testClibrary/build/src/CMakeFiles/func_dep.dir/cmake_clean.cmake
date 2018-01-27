@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/func_dep.dir/func.o"
+  "CMakeFiles/func_dep.dir/test_class.o"
   "libfunc_dep.pdb"
   "libfunc_dep.a"
 )

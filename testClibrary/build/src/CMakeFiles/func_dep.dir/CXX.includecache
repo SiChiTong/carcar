@@ -46,11 +46,11 @@ cstdint
 cstring
 -
 
-/root/carcar/testClibrary/src/func.cpp
-func.h
-/root/carcar/testClibrary/src/func.h
+/root/carcar/testClibrary/src/test_class.cpp
+test_class.h
+/root/carcar/testClibrary/src/test_class.h
 
-/root/carcar/testClibrary/src/func.h
+/root/carcar/testClibrary/src/test_class.h
 common.h
 /root/carcar/testClibrary/src/common.h
 

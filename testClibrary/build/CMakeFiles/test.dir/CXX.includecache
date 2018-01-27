@@ -50,7 +50,13 @@ cstring
 common.h
 .././src/common.h
 
+.././src/test_class.h
+common.h
+.././src/common.h
+
 /root/carcar/testClibrary/main.cpp
 func.h
 /root/carcar/testClibrary/func.h
+test_class.h
+/root/carcar/testClibrary/test_class.h
 

@@ -183,6 +183,9 @@ LIBRARY_OUTPUT_PATH:PATH=
 //Dependencies for target
 func_dep_LIB_DEPENDS:STATIC=
 
+//Dependencies for target
+smart_ptr_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 test_c_library_BINARY_DIR:STATIC=/root/carcar/testClibrary/build
 
@@ -282,7 +285,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=2
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

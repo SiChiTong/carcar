@@ -23,5 +23,6 @@
 #include <stdlib.h>
 #include <cstdint>
 #include <cstring>
+#include <memory>
 
 #endif

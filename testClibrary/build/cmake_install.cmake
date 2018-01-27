@@ -35,6 +35,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/root/carcar/testClibrary/build/src/cmake_install.cmake")
+  INCLUDE("/root/carcar/testClibrary/build/smart_ptr/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

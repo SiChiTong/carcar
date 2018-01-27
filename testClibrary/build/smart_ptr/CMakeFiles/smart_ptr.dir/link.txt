@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsmart_ptr.a  CMakeFiles/smart_ptr.dir/share_ptr.o
+/usr/bin/ranlib libsmart_ptr.a

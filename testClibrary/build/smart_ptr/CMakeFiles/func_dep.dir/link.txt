@@ -1,0 +1,2 @@
+/usr/bin/ar cr libfunc_dep.a  CMakeFiles/func_dep.dir/func.o CMakeFiles/func_dep.dir/test_class.o
+/usr/bin/ranlib libfunc_dep.a

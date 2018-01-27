@@ -112,6 +112,15 @@ void test_new_and_delete(){
 		
 }
 
+void test_share_ptr(){
+	
+	shared_ptr<int> aa(new int(4));
+	cout<<*aa<<"\n";
+	cout<<aa.use_count()<<"\n";
+	//shared_ptr<int> bb=new int(4);
+	
+	
+}
 
 
 

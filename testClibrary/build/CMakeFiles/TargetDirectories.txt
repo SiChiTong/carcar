@@ -1,2 +1,3 @@
 /root/carcar/testClibrary/build/src/CMakeFiles/func_dep.dir
+/root/carcar/testClibrary/build/smart_ptr/CMakeFiles/smart_ptr.dir
 /root/carcar/testClibrary/build/CMakeFiles/test.dir

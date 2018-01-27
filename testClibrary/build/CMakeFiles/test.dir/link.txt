@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/test.dir/main.o  -o test -rdynamic src/libfunc_dep.a 
+/usr/bin/c++       CMakeFiles/test.dir/main.o  -o test -rdynamic src/libfunc_dep.a smart_ptr/libsmart_ptr.a 

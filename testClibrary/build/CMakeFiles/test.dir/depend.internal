@@ -3,6 +3,7 @@
 
 CMakeFiles/test.dir/main.o
  .././inc/common.h
+ .././smart_ptr/share_ptr.h
  .././src/func.h
  .././src/test_class.h
  /root/carcar/testClibrary/main.cpp

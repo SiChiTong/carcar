@@ -1,5 +1,6 @@
 #include "func.h"
 #include "test_class.h"
+#include "share_ptr.h"
 int main(int argc,char** argv){
 	
 	//test_strtol();
@@ -7,7 +8,8 @@ int main(int argc,char** argv){
 	//test_str();
 	//test_string();
 	//test_new_and_delete();
-	TestClass();
-		
+	//TestClass();
+    //test_share_ptr();	
+	TestSmart();
 }
 

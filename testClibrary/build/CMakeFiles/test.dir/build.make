@@ -85,6 +85,7 @@ test_EXTERNAL_OBJECTS =
 test: CMakeFiles/test.dir/main.o
 test: CMakeFiles/test.dir/build.make
 test: src/libfunc_dep.a
+test: smart_ptr/libsmart_ptr.a
 test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)

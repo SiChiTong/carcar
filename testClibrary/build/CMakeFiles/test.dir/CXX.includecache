@@ -45,6 +45,12 @@ cstdint
 -
 cstring
 -
+memory
+-
+
+.././smart_ptr/share_ptr.h
+common.h
+.././smart_ptr/common.h
 
 .././src/func.h
 common.h
@@ -59,4 +65,6 @@ func.h
 /root/carcar/testClibrary/func.h
 test_class.h
 /root/carcar/testClibrary/test_class.h
+share_ptr.h
+/root/carcar/testClibrary/share_ptr.h
 

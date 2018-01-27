@@ -127,6 +127,19 @@ func_dep/fast:
 	$(MAKE) -f src/CMakeFiles/func_dep.dir/build.make src/CMakeFiles/func_dep.dir/build
 .PHONY : func_dep/fast
 
+#=============================================================================
+# Target rules for targets named smart_ptr
+
+# Build rule for target.
+smart_ptr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 smart_ptr
+.PHONY : smart_ptr
+
+# fast build rule for target.
+smart_ptr/fast:
+	$(MAKE) -f smart_ptr/CMakeFiles/smart_ptr.dir/build.make smart_ptr/CMakeFiles/smart_ptr.dir/build
+.PHONY : smart_ptr/fast
+
 # target to build an object file
 main.o:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.o
@@ -152,6 +165,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... func_dep"
+	@echo "... smart_ptr"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

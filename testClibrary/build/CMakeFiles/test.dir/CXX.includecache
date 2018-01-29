@@ -47,6 +47,10 @@ cstring
 -
 memory
 -
+algorithm
+-
+list
+-
 
 .././smart_ptr/share_ptr.h
 common.h

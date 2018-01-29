@@ -24,5 +24,7 @@
 #include <cstdint>
 #include <cstring>
 #include <memory>
+#include <algorithm>
+#include <list>
 
 #endif

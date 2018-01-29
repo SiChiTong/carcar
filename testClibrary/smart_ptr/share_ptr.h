@@ -9,7 +9,16 @@ class SmartPtr{
 		SmartPtr();
 	
 };
+class Parent{
+	public:
+		std::shared_ptr<std::list<int>> data_;
+		Parent();
+		int InsertData();
+		int DisplayData()const;
+		
+};
 
 void TestSmart();
+void TestParentClass();
 
 #endif

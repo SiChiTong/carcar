@@ -1,6 +1,8 @@
 #include "func.h"
 #include "test_class.h"
 #include "share_ptr.h"
+using namespace std;
+int aa=12;
 int main(int argc,char** argv){
 	
 	//test_strtol();
@@ -10,6 +12,13 @@ int main(int argc,char** argv){
 	//test_new_and_delete();
 	//TestClass();
     //test_share_ptr();	
-	TestSmart();
+	#if 0
+	int aa=90;
+	cout<<aa<<"\n";   // 打印局部变量 90
+	cout<<::aa<<"\n"; //打印全局变量 12
+	#endif 
+	
+	//TestSmart();
+	TestParentClass();
 }
 

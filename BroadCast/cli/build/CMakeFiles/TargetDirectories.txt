@@ -1,0 +1,2 @@
+/root/carcar/BroadCast/cli/build/CMakeFiles/cli.dir
+/root/carcar/BroadCast/cli/build/src/CMakeFiles/client_lib.dir

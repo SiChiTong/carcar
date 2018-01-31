@@ -1,2 +1,0 @@
-/root/carcar/BroadCast/ser/CMakeFiles/ser.dir
-/root/carcar/BroadCast/ser/src/CMakeFiles/server_lib.dir

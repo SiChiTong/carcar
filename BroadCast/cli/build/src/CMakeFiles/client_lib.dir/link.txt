@@ -1,0 +1,2 @@
+/usr/bin/ar cr libclient_lib.a  CMakeFiles/client_lib.dir/client.cpp.o
+/usr/bin/ranlib libclient_lib.a

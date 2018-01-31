@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcli_depend.a  CMakeFiles/cli_depend.dir/client.cpp.o
+/usr/bin/ranlib libcli_depend.a

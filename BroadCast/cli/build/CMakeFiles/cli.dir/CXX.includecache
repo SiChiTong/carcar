@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././src/client.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+netdb.h
+-
+sys/socket.h
+-
+sys/wait.h
+-
+arpa/inet.h
+-
+fstream
+-
+unistd.h
+-
+fcntl.h
+-
+
+/root/carcar/BroadCast/cli/cli.cpp
+client.h
+/root/carcar/BroadCast/cli/client.h
+unistd.h
+-
+

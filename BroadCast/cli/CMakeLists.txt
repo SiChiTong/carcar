@@ -1,10 +1,10 @@
 project(cli)
 cmake_minimum_required(VERSION 2.6)
 add_definitions("-Wall -g -std=c++11")
-include_directories(./src)
-link_directories(./)
+include_directories(./src )
+link_directories(${project_source_dir})
 
 add_subdirectory(./src)
 aux_source_directory(. SRC_CODE_SER)
 add_executable(cli ${SRC_CODE_SER})
-target_link_libraries(cli cli_depend)
+target_link_libraries(cli client_lib)

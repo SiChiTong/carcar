@@ -18,15 +18,18 @@ int main(){
     CreateSocket(&their_addr,port,socket_id );	//initial sock
 	
     SendData(&their_addr,socket_id,find_dev,sizeof(find_dev)); //send msg
+	while(true){
 	
-	recieve_data=RecieveMsgFormSer(socket_id,recieve_buff,sizeof(recieve_buff),&their_addr); //recieve dev info
+		recieve_data=RecieveMsgFormSer(socket_id,recieve_buff,sizeof(recieve_buff),&their_addr); //recieve dev info
+		if(-1!=recieve_data){
+			memcpy(recieve_dev_info_,recieve_buff,recieve_data);
 	
-	memcpy(recieve_dev_info_,recieve_buff,recieve_data);
-	
-	cout<<"ipAddr:"<<recieve_dev_info_->ipAddr<<"\n";
-	cout<<"gwAddr:"<<recieve_dev_info_->gwAddr<<"\n";
-	cout<<"macAddr:"<<recieve_dev_info_->macAddr<<"\n";
-	cout<<"devId:"<<recieve_dev_info_->devId<<"\n";
+			cout<<"ipAddr:"<<recieve_dev_info_->ipAddr<<"\n";
+			cout<<"gwAddr:"<<recieve_dev_info_->gwAddr<<"\n";
+			cout<<"macAddr:"<<recieve_dev_info_->macAddr<<"\n";
+			cout<<"devId:"<<recieve_dev_info_->devId<<"\n";
+		}
+	}
 	
 	#if 0
 	RecieveMsgFormSer(socket_id,recieve_dev_info,sizeof(recieve_dev_info),&their_addr);	

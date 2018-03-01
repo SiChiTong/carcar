@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc_library.a  CMakeFiles/src_library.dir/c_pluse.cpp.o
+/usr/bin/ranlib libsrc_library.a

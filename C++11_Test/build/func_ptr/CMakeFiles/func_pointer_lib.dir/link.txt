@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfunc_pointer_lib.a  CMakeFiles/func_pointer_lib.dir/func_pointer.cpp.o
+/usr/bin/ranlib libfunc_pointer_lib.a
